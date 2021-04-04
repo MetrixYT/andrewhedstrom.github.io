@@ -13,7 +13,6 @@ html,body,p,h1 {
   width:100px;
   height:100px;
   object-fit: cover;
-  align-items: top;
 }
 
 .container {
