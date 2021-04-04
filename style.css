@@ -1,0 +1,74 @@
+html,body,p,h1 {
+  margin: 0;
+  padding: 0;
+  background-color:#3D3B3C;
+  font-family: Karla, sans-serif;
+  font-size:16px;
+  text-align: center;
+}
+
+.profile {
+  margin: 20px 0;
+  border-radius: 50%;
+  width:100px;
+  height:100px;
+  object-fit: cover;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width:680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,p {
+  color: white;
+  margin:0px 0;
+}
+
+h1 {
+  font-size:1.2em;
+}
+
+section {
+  margin: 20px 0
+}
+
+p {
+  margin: 4px 0;
+}
+
+a {
+  position: relative;
+  transition: background-color 0.4s;
+  text-decoration: none;
+  color:#3D3B3C;
+  background-color: white;
+  width:100%;
+  padding: 20px 0;
+  margin: 5px 0;
+  border: 2px solid white;
+}
+
+a:hover {
+  color:white;
+  background-color: #3D3B3C;
+}
+
+i {
+  position:absolute;
+  top: 14px;
+  left: 12px;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.website {
+  width:32px;
+  border-radius:50%;
+}
